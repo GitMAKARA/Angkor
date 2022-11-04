@@ -1,0 +1,96 @@
+body {
+    background: tomato;
+    margin: 0;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(../images/angkor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/***************** 1ST Menu ******************/
+/* nav {
+    height: 75px;
+    background: #FFFFFF;
+}
+nav > div {
+    height: 100%;
+    width: 950px;
+    background: aquamarine;
+    margin: 0 auto;
+}
+nav > div > img {
+    height: 100%;
+}
+nav > div > div {
+    float: right;
+}
+nav > div > div > a {
+    line-height: 75px;
+    padding-right: 30px;
+} */
+/**********************************************/
+
+
+/***************** 2ND Menu ******************/
+#nav {
+     height: 60px;
+     background: rgba(4, 141, 146, 0.788);
+}
+#nav > div {
+    width: 42%;
+    /* background: chocolate; */
+    float: left;
+}
+#nav > div > a {
+    line-height: 60px;
+    padding: 0 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 55px;
+    display: inline-block;
+}
+#nav > div > a:hover {
+    border-bottom: 5px solid rgb(27, 5, 226);
+}
+
+.box {
+     width: 350px;
+     height: 250px;
+     background: brown;
+     margin: 0 auto;
+     position: absolute;
+     left: 0; right: 0;
+     top: 50%;
+     margin-top: -125px;
+}
+.box > img {
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+.box > h2, .box > p {
+    text-align: center;
+}
+.box > div {
+    width: 200px;
+    height: 50px;
+    background: cornflowerblue;
+    margin: 0 auto;
+}
+.box > div > div {
+    height: 30px;
+    width: 86px;
+    float: left;
+    border: 2px solid gray;
+    margin: 0 5px;
+    text-align: center;
+    background: blanchedalmond;
+}
+.box > div > div:hover {
+    background: brown;
+    color: white;
+}
+/**********************************************/
